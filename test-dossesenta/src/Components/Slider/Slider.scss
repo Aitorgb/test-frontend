@@ -1,0 +1,63 @@
+.slider {
+    text-align: center;
+    margin-top: -20px;
+
+    &-section {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        margin-top: 50px;
+        margin-left: 110px;
+        position: relative;
+    }
+    &-title {
+        margin: auto;
+    }
+
+    & .cross img {
+        width: 50px;
+    }
+
+    & .cross {
+        float: left;
+    }
+
+	& .logo {
+		position: relative;
+		z-index: 1;
+		top: 30px;
+	}
+
+    &2 {
+        height: 90%;
+    }
+    &3 {
+        height: 75%;
+    }
+
+    & .blue-color {
+        color: #0078ce;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .carousel, .carousel-item, .carusel-image {
+        height: 43em;
+
+    }
+
+    .slider3 {
+        height: 85%;
+    }
+
+
+    .slider2 h4 {
+        font-size: 12px;
+    }
+    .slider2 h2 {
+        font-size: 22px;
+    }
+
+
+}

@@ -1,0 +1,14 @@
+.partners {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 230px;
+
+
+    & h5 {
+        margin: 0;
+    }
+}
+
+

@@ -1,0 +1,22 @@
+@import './Fonts';
+
+.App {
+	
+	background-color: #000000;
+	font-family: Monserrat-semibold;
+	color: white;
+	font-size: 12px;
+}
+
+h6 {
+	font-size: 12px !important;
+}
+
+.title-light {
+	font-family: Monserrat-light;
+}
+
+.cross {
+	border: 0;
+	background: transparent;
+}
